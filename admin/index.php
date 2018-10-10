@@ -45,7 +45,7 @@
                 <div class="stat-widget-one">
                     <div class="stat-icon dib"><i class="fa fa-tags text-white border-white"></i></div>
                     <div class="stat-content dib">
-                        <div class="stat-text text-light">No.of Categories</div>
+                        <div class="stat-text text-light">Categories</div>
                         <div class="stat-digit text-white">3</div>
                     </div>
                 </div>
