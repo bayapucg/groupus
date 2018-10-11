@@ -1,6 +1,19 @@
 <?php include('header.php'); ?>
 <?php include('sidebar.php'); ?>
 <?php include('header-1.php'); ?>
+<style>
+.btn-upload {
+  position: relative;
+  overflow: hidden;
+}
+.input-upload {
+  position: absolute;
+  font-size: 50px;
+  opacity: 0;
+  right: 0;
+  top: 0;
+}
+</style>
 
 <div class="breadcrumbs">
     <div class="col-sm-4">
@@ -131,23 +144,23 @@
                                         <div class="col-md-6 mx-auto">
                                             <div class="col-md-12">
                                                 <div class="form-group">
-                                                    <input type="email" id="" value="" placeholder="To:" class="form-control">
+                                                    <input type="email" id="" value="" placeholder="To" class="form-control">
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
                                                 <div class="form-group">
-                                                    <input type="text" id="" value="" placeholder="Subject:" class="form-control">
+                                                    <input type="text" id="" value="" placeholder="Subject" class="form-control">
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
                                                 <div class="form-group">
-                                                    <textarea rows="10" class="form-control">Message</textarea>
+                                                    <textarea placeholder="Message" rows="10" class="form-control"></textarea>
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
-                                                <a href="#" class="btn btn-sm btn-info">
-                                                    <i class="fa fa-paperclip"></i> Attachment
-                                                </a>
+                                             <div class="file btn btn-sm btn-primary btn-upload "> <i class="fa fa-paperclip"></i> Attachment
+													<input class="input-upload" type="file" name="file"/>
+											 </div>
                                                 <a href="#" class="btn btn-sm btn-danger">
                                                     <i class="fa fa-trash-o"></i>
                                                 </a>
@@ -160,7 +173,7 @@
                         </div>
                     </div>
                     
-                    <div id="sent-mails" class="tab-pane fade show active" role="tabpanel">
+                    <div id="sent-mails" class="tab-pane fade " role="tabpanel">
                         <div class="card">
                             <div class="card-header">
                                 <strong class="card-title">Sent Mails</strong>
