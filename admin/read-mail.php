@@ -54,6 +54,10 @@
                                 <p>Lorem ipsum dollor site amet the best consectuer adipiscing elites sed diam nonummy nibh euismod uth laoreet dolore magna aliquam erat volutpat insignia the consectuer adipiscing elit.</p>
                                 <p>Thanks,</p>
                                 <p>Alexander Pierce.</p>
+                                <div class="file-links">
+                                    <a href="#" style="text-decoration:underline;color:#2d2dce;margin-right:10px;">FileName <i class="fa fa-download"></i></a>
+                                    <a href="#" style="text-decoration:underline;color:#2d2dce;margin-right:10px;">FileName <i class="fa fa-download"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
