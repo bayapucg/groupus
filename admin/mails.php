@@ -237,6 +237,9 @@
                                                 </td>
                                                 <td>5 mins ago</td>
                                                 <td>
+                                                    <a href="#" class="btn btn-sm social btn-primary">
+                                                        <i class="fa fa-undo"></i>
+                                                    </a>
                                                     <a href="#" class="btn btn-sm social btn-danger">
                                                         <i class="fa fa-trash-o"></i>
                                                     </a>
@@ -248,6 +251,9 @@
                                                 </td>
                                                 <td>28 mins ago</td>
                                                 <td>
+                                                    <a href="#" class="btn btn-sm social btn-primary">
+                                                        <i class="fa fa-undo"></i>
+                                                    </a>
                                                     <a href="#" class="btn btn-sm social btn-danger">
                                                         <i class="fa fa-trash-o"></i>
                                                     </a>
@@ -259,6 +265,9 @@
                                                 </td>
                                                 <td>11 hours ago</td>
                                                 <td>
+                                                    <a href="#" class="btn btn-sm social btn-primary">
+                                                        <i class="fa fa-undo"></i>
+                                                    </a>
                                                     <a href="#" class="btn btn-sm social btn-danger">
                                                         <i class="fa fa-trash-o"></i>
                                                     </a>

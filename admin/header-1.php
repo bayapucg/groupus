@@ -71,7 +71,7 @@
 
                         <a class="nav-link text-white" href="mails.php"><i class="ti-email"></i> Mails <span class="count">13</span></a>
 
-                        <a class="nav-link text-white" href="edit-profile.php"><i class="fa fa-cog"></i> Settings</a>
+                        <a class="nav-link text-white" href="change-password.php"><i class="fa fa-cog"></i> Change Password</a>
 
                         <a class="nav-link text-white" href="login.php"><i class="fa fa-power-off"></i> Logout</a>
                     </div>

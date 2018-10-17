@@ -15,7 +15,7 @@
             <div class="page-title">
                 <ol class="breadcrumb text-right">
                     <li><a href="index.php">Dashboard</a></li>
-                    <li class="active">Settings</li>
+                    <li class="active">Change Password</li>
                 </ol>
             </div>
         </div>
@@ -29,46 +29,31 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <a href="profile.php" class="btn btn-sm btn-info">
-                            <i class="fa fa-chevron-left"></i>
-                        </a>
-                        <strong class="card-title">Edit Profile</strong>
+                        <strong class="card-title">Change Password</strong>
                     </div>
                     <div class="card-body">
                         <form method="" action="">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label class="form-control-label">Name</label>
-                                        <input type="text" id="" value="John Deo" class="form-control">
+                                        <label class="form-control-label">Old Password</label>
+                                        <input type="text" id="" value="" placeholder="Enter Old Password" class="form-control">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label class="form-control-label">Email Id</label>
-                                        <input type="email" id="" value="Johndeo@gmail.com" class="form-control">
+                                        <label class="form-control-label">New Password</label>
+                                        <input type="text" id="" value="" placeholder="Enter New Password" class="form-control">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label class="form-control-label">Phone Number</label>
-                                        <input type="text" id="" value="98xxxxxx56" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label class="form-control-label">Location</label>
-                                        <input type="text" id="" value="Delhi" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label class="form-control-label">Profile Pic</label>
-                                        <input type="file" id="" class="form-control">
+                                        <label class="form-control-label">Confirm New Password</label>
+                                        <input type="text" id="" value="" placeholder="Confirm New Password" class="form-control">
                                     </div>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-sm btn-primary">Save Changes</button>
+                            <button type="submit" class="btn btn-sm btn-primary">Submit</button>
                         </form>
                     </div>
                 </div>
